@@ -1,7 +1,7 @@
 # Description
 
 A very old FreeBSD rootkit for the 1337 h4x0rs out there. This was my first
-attempt to code in FreeBSD kernel land. So beare with me. :)
+attempt to code in FreeBSD kernel land. So bear with me. :)
 This version should work for at least for FreeBSD 7 and 8.
 
 # Usage
