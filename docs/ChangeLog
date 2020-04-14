@@ -1,0 +1,6 @@
+===> 0.0.1
+	- connect back patch for su + tty support
+	- file hiding (fbkit-0.0.1.ko, sux)
+	- KLD hiding
+	- process hiding
+	- conn hiding

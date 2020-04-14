@@ -1,0 +1,7 @@
+===> 0.0.2
+    - add udp connect back support
+    - define a TCP trigger (often you will be blocked by pfs on ICMP)
+    - insert boot.conf entry for our fbkit to automatically load after reboot
+      and hide this entry in file (lseek() fucking, yeah) - so we don't have
+      to use rmdir() hook to remove our fbkit.ko and sux.
+    - support freebsd 6.*
